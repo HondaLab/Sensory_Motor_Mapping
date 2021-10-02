@@ -21,7 +21,7 @@ def tanh1(x):
     alpha2=30.0
     beta=0.001 # 0.004
     beta2=10.00
-    b=200  # 280
+    b=300  # 280
     c=0.0
     f=alpha*math.tanh(beta*(x-b)) + alpha2*math.tanh(beta2*(x-b))+c
     return f
@@ -30,7 +30,7 @@ def tanh2(x):
     alpha2=30.0
     beta=0.001 # 0.004
     beta2=10.00
-    b=280  # 360
+    b=380  # 360
     c=0.0
     f=alpha*math.tanh(beta*(x-b)) + alpha2*math.tanh(beta2*(x-b))+c
     return f
@@ -40,7 +40,7 @@ print("Input 'q' to stop this program.")
 print("===============================")
 ch="c"
 count=0
-gamma=0.32 # Center weight
+gamma=0.50 # Center weight
 now=time.time()
 start=now
 init=now
